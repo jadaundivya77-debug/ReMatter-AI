@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+
+# Environment variables & secrets
+.env
+.env*
+**/.env*
+!.env.example
+!**/.env.example
+
+# Next.js build outputs
+.next/
+frontend/.next/
+out/
+build/
+dist/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+backend/.pytest_cache/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large Model weights (YOLO auto-downloads yolov8n.pt on first startup)
+*.pt
+backend/*.pt

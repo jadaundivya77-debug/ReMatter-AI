@@ -1,0 +1,27 @@
+# Dependencies & Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets
+.env
+.env*.local
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Model weights (auto-downloaded)
+*.pt
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
